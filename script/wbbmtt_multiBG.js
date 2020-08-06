@@ -279,14 +279,16 @@
         return s;
     }
 
-    var COLORS = ["pink", "lime", "orange", "aqua", "fuchsia"];
+    //var COLORS = ["pink", "lime", "orange", "aqua", "fuchsia"];
+    var COLORS = ["pink", "green", "orange", "aqua", "fuchsia"];
     function touchColor(i) {
         return COLORS[i % COLORS.length];
     }
 
 	var init = true;
 	var bg = 0;
-    var BG_COLORS = ["black", "white", "red", "green", "blue"];
+    //var BG_COLORS = ["black", "white", "red", "green", "blue"];
+    var BG_COLORS = ["black", "white", "red", "lime", "blue"];
     function bgColor(i) {
         return BG_COLORS[i % COLORS.length];
     }
