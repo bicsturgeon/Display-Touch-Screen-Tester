@@ -1,5 +1,5 @@
 [ Instructions ]
-1. Go to "bstg-touchscreen.netlify.app" with Google Chrome or Chromium based web browser.
+1. Open "Display & Touch Screen Tester.html" or "index.html" or go to "bstg-touchscreen.netlify.app" with Google Chrome or Chromium based web browser.
 2. Press F11 on your keyboard.
 3. Touch on display to test touching.
 4. For dead/bright pixels testing. You can hold middle finger and ring finger. Then tap with index finger to change background color and release all fingers.
@@ -8,7 +8,7 @@
 
 
 [ ข้อแนะนำในการใช้ ]
-1. ไปที่ "bstg-touchscreen.netlify.app" ด้วยเว็บเบราเซอร์ Google Chrome หรือเบราเซอร์อื่นๆ ที่ใช้พื้นฐานของ Chromium
+1. เปิดไฟล์ "Display & Touch Screen Tester.html" หรือ "index.html" หรือไปที่ "bstg-touchscreen.netlify.app" ด้วยเว็บเบราเซอร์ Google Chrome หรือเบราเซอร์อื่นๆ ที่ใช้พื้นฐานของ Chromium
 2. กดปุ่ม F11 ที่คีย์บอร์ด
 3. แตะจอเพื่อทดสอบระบบสัมผัส
 4. สามารถเปลี่ยนสีพื้นหลังเพื่อทดสอบจุดเสียได้ โดยการแตะนิ้วกลางและนิ้วนางค้างไว้ก่อน 2 นิ้ว แล้วใช้นิ้วชี้แตะแล้วปล่อย พื้นหลังจะเปลี่ยนสี
