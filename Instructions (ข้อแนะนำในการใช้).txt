@@ -2,7 +2,7 @@
 1. Open "Display & Touch Screen Tester.html" with Google Chrome or Chromium based web browser.
 2. Press F11 on your keyboard.
 3. Touch on display to test touching.
-4. For dead/bright pixels testing. You can hold a finger and tap with another finger to change background color and release all fingers.
+4. For dead/bright pixels testing. You can hold middle finger and ring finger. Then tap with index finger to change background color and release all fingers.
 5. Look for abnormal pixel(s) on display.
 6. Repeat 4. to 5. to test with other background colors.
 
@@ -11,6 +11,6 @@
 1. เปิดไฟล์ "Display & Touch Screen Tester.html" ด้วยเว็บเบราเซอร์ Google Chrome หรือเบราเซอร์อื่นๆ ที่ใช้พื้นฐานของ Chromium
 2. กดปุ่ม F11 ที่คีย์บอร์ด
 3. แตะจอเพื่อทดสอบระบบสัมผัส
-4. สามารถเปลี่ยนสีพื้นหลังเพื่อทดสอบจุดเสียได้ โดยการแตะนิ้วค้างไว้ 1 นิ้ว แล้วใช้อีก 1 นิ้ว แตะแล้วปล่อย พื้นหลังจะเปลี่ยนสี
+4. สามารถเปลี่ยนสีพื้นหลังเพื่อทดสอบจุดเสียได้ โดยการแตะนิ้วกลางและนิ้วนางค้างไว้ก่อน 2 นิ้ว แล้วใช้นิ้วชี้แตะแล้วปล่อย พื้นหลังจะเปลี่ยนสี
 5. ตรวจสอบหาจุดผิดพลาดของหน้าจอด้วยสายตาของท่าน
 6. ทำซ้ำข้อ 4. ถึง 5. เพื่อทดสอบหาจุดเสียในสีอื่นๆ
