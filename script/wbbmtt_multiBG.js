@@ -280,7 +280,7 @@
     }
 
     //var COLORS = ["pink", "lime", "orange", "aqua", "fuchsia"];
-    var COLORS = ["pink", "green", "orange", "aqua", "fuchsia"];
+    var COLORS = ["yellow", "pink", "orange", "aqua", "fuchsia"];
     function touchColor(i) {
         return COLORS[i % COLORS.length];
     }
