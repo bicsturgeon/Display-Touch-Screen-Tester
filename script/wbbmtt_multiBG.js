@@ -249,13 +249,31 @@
     function ordinalStr(ordinal) {
         switch (ordinal) {
             case 0 :
-                return "1st";
+                return "  1st";
             case 1 :
-                return "2nd";
+                return "  2nd";
             case 2 :
-                return "3rd";
+                return "  3rd";
+            case 20 :
+                return " 21st";
+            case 21 :
+                return " 22nd";
+            case 22 :
+                return " 23rd";
+            case 30 :
+                return " 31st";
+            case 31 :
+                return " 32nd";
+            case 32 :
+                return " 33rd";
+            case 40 :
+                return " 41st";
+            case 41 :
+                return " 42nd";
+            case 42 :
+                return " 43rd";
             default :
-                return (ordinal + 1) + "th";
+                return numberToPadedFixed((ordinal + 1), 3, 0) + "th";
         }
     }
 
