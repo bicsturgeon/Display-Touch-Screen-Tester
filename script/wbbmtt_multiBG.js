@@ -409,7 +409,7 @@
 				init = false;
                 this._drawTouchPoint(ctx, touch, touchColor(i));
 				//if (touch == "touchend") {
-					if(i >= 5){
+					if(i >= 2){
 						bg++;
 					}
 				//}
