@@ -303,12 +303,11 @@
         return COLORS[i % COLORS.length];
     }
 
-	var init = true;
 	var bg = 0;
     //var BG_COLORS = ["black", "white", "red", "green", "blue"];
-    var BG_COLORS = ["black", "white", "red", "lime", "blue"];
+    var BG_COLORS = ["black", "gray", "white", "red", "lime", "blue"];
     function bgColor(i) {
-        return BG_COLORS[i % COLORS.length];
+        return BG_COLORS[i % BG_COLORS.length];
     }
 
     function drawGrid(ctx, span) {
@@ -361,7 +360,7 @@
     }
 
     function drawIdleMessage(ctx, message, color) {
-        ctx.font = "18px monospace";
+        ctx.font = "24px monospace";
         ctx.fillStyle = color;
         var metrix = ctx.measureText(message);
         ctx.fillText(message, (ctx.canvas.width - metrix.width) / 2, ctx.canvas.height / 2);
@@ -384,6 +383,23 @@
         }
     }
 
+	var init = true;
+/*	var clickTimer = null;
+
+	function changeBG() {
+		if (clickTimer == null) {
+			clickTimer = setTimeout(function () {
+				clickTimer = null;
+				//alert("single");
+				bg++;
+			}, 200)
+		} else {
+			clearTimeout(clickTimer);
+			clickTimer = null;
+			//alert("double");
+		}
+	}
+*/
     function Wbbmtt__drawTouches() {
         var canvas = document.getElementById(this.displayCanvasId);
         if (!canvas.getContext) {
@@ -394,6 +410,7 @@
 
         if (this.backGroundColor) {
             ctx.fillStyle = bgColor(bg);//this.backGroundColor;
+			//setTimeout(function(){}, 500);
             ctx.fillRect(0, 0, canvas.width, canvas.height);
         } else {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -408,11 +425,6 @@
             if (touch != undefined) {
 				init = false;
                 this._drawTouchPoint(ctx, touch, touchColor(i));
-				//if (touch == "touchend") {
-					if(i >= 2){
-						bg++;
-					}
-				//}
             }
         }
 
@@ -460,7 +472,7 @@
                         this._trackingTouches[idx] = copyTouch(touch);
                     }
                     break;
-                case "touchend" : // fall through
+                case "touchend" : bg++;//changeBG();// fall through
                 case "touchcancel" :
                     var idx = findTouch(this._trackingTouches, touch);
                     if (idx < 0) {
