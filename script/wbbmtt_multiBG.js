@@ -360,7 +360,7 @@
     }
 
     function drawIdleMessage(ctx, message, color) {
-        ctx.font = "24px monospace";
+        ctx.font = "20px monospace";
         ctx.fillStyle = color;
         var metrix = ctx.measureText(message);
         ctx.fillText(message, (ctx.canvas.width - metrix.width) / 2, ctx.canvas.height / 2);
